@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Revise seu finaciamento de veículo" },
+      { name: "description", content: "Landing page for vehicle contract review to reduce installment payments." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Revise seu finaciamento de veículo" },
+      { property: "og:description", content: "Landing page for vehicle contract review to reduce installment payments." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Revise seu finaciamento de veículo" },
+      { name: "twitter:description", content: "Landing page for vehicle contract review to reduce installment payments." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/459eb381-f145-4363-b4ba-157860395d21/id-preview-be31812a--b3c251f4-8155-4b38-8ccc-95868742c876.lovable.app-1779413407057.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/459eb381-f145-4363-b4ba-157860395d21/id-preview-be31812a--b3c251f4-8155-4b38-8ccc-95868742c876.lovable.app-1779413407057.png" },
     ],
     links: [
       {
