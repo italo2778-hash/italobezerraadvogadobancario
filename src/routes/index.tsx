@@ -11,6 +11,7 @@ import {
   Sparkles,
   Instagram,
   ArrowRight,
+  Briefcase,
 } from "lucide-react";
 import lawyerHero from "@/assets/lawyer-hero.jpg";
 import contractBanner from "@/assets/contract-banner.jpg";
@@ -48,13 +49,6 @@ function WhatsAppIcon({ className }: { className?: string }) {
   );
 }
 
-function TikTokIcon({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" className={className} fill="currentColor">
-      <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.07A6.33 6.33 0 005.8 20.1a6.34 6.34 0 0010.86-4.43V8.93a8.16 8.16 0 004.77 1.52V7a4.85 4.85 0 01-1.84-.31z" />
-    </svg>
-  );
-}
 
 function CtaWhatsApp({ label = "Quero reduzir meu financiamento", onClick, variant = "primary" }: { label?: string; onClick?: () => void; variant?: "primary" | "ghost" }) {
   const base = "group inline-flex items-center justify-center gap-3 rounded-full px-7 py-4 text-base font-semibold transition-all duration-300 focus:outline-none focus:ring-4";
@@ -443,12 +437,12 @@ function LandingPage() {
               rel="noopener noreferrer"
               className="group flex items-center gap-4 rounded-2xl border border-[#e0e9f0] bg-white p-5 shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl"
             >
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-[#000] to-[#333] text-white shadow-lg">
-                <TikTokIcon className="h-6 w-6" />
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-[#0d2438] to-[#2980b9] text-white shadow-lg">
+                <Briefcase className="h-6 w-6" />
               </div>
               <div>
-                <p className="text-xs text-[#5a6b7a]">TikTok</p>
-                <p className="font-semibold text-[#1a2a3a] group-hover:text-[#2980b9]">@italobezerra29</p>
+                <p className="text-xs text-[#5a6b7a]">Italo Bezerra</p>
+                <p className="font-semibold text-[#1a2a3a] group-hover:text-[#2980b9]">Advogado</p>
               </div>
             </a>
           </div>
