@@ -282,6 +282,10 @@ function LandingPage() {
                       <input
                         id="valor"
                         type="number"
+                        min="0"
+                        step="1000"
+                        inputMode="numeric"
+                        pattern="[0-9]*"
                         value={form.valor}
                         onChange={(e) => setForm({ ...form, valor: e.target.value })}
                         placeholder="Ex: 25000"
