@@ -11,6 +11,7 @@ import {
   Sparkles,
   Instagram,
   ArrowRight,
+  Briefcase,
 } from "lucide-react";
 import lawyerHero from "@/assets/lawyer-hero.jpg";
 import contractBanner from "@/assets/contract-banner.jpg";
