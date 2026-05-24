@@ -437,12 +437,12 @@ function LandingPage() {
               rel="noopener noreferrer"
               className="group flex items-center gap-4 rounded-2xl border border-[#e0e9f0] bg-white p-5 shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl"
             >
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-[#000] to-[#333] text-white shadow-lg">
-                <TikTokIcon className="h-6 w-6" />
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-[#0d2438] to-[#2980b9] text-white shadow-lg">
+                <Briefcase className="h-6 w-6" />
               </div>
               <div>
-                <p className="text-xs text-[#5a6b7a]">TikTok</p>
-                <p className="font-semibold text-[#1a2a3a] group-hover:text-[#2980b9]">@italobezerra29</p>
+                <p className="text-xs text-[#5a6b7a]">Italo Bezerra</p>
+                <p className="font-semibold text-[#1a2a3a] group-hover:text-[#2980b9]">Advogado</p>
               </div>
             </a>
           </div>
