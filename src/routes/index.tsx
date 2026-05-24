@@ -424,7 +424,7 @@ function LandingPage() {
           </p>
           <div className="mx-auto mt-8 grid max-w-2xl gap-4 sm:grid-cols-2">
             <a
-              href="https://www.instagram.com/italobezerra"
+              href="https://www.instagram.com/adv.italo.bezerra/"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-4 rounded-2xl border border-[#e0e9f0] bg-white p-5 shadow-sm transition-all hover:-translate-y-1 hover:shadow-xl"
@@ -434,7 +434,7 @@ function LandingPage() {
               </div>
               <div>
                 <p className="text-xs text-[#5a6b7a]">Instagram</p>
-                <p className="font-semibold text-[#1a2a3a] group-hover:text-[#2980b9]">@italobezerra</p>
+                <p className="font-semibold text-[#1a2a3a] group-hover:text-[#2980b9]">@adv.italo.bezerra</p>
               </div>
             </a>
             <a
